@@ -18,6 +18,7 @@
     "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
     "rules": {
         "react/react-in-jsx-scope": "off",
+        "@typescript-eslint/no-explicit-any": "off",
         "camelcase": "error",
         "spaced-comment": "error",
         "quotes": ["error", "single"],
